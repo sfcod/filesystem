@@ -1,4 +1,5 @@
 /phpunit.xml
+/.idea/
 /.env
 /composer.lock
 /composer.phar
