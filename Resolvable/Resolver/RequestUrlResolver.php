@@ -41,7 +41,7 @@ class RequestUrlResolver implements ResolverInterface
         if ($this->requestStack->getCurrentRequest()) {
             $request = $this->requestStack->getCurrentRequest();
 
-            $baseUrl = rtrim(str_replace($request->getRequestUri(), '', $request->getUri()), '/');
+            $baseUrl = rtrim($request->getSchemeAndHttpHost() . $request->getBaseUrl(), '/');
         } else {
             $baseUrl = '';
         }
