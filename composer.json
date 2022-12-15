@@ -15,8 +15,8 @@
         }
     ],
     "require": {
-        "php": "^7.0",
-        "symfony/framework-bundle": "^4.4 || ^5.4",
+        "php": "^7.4",
+        "symfony/framework-bundle": "^5.4",
         "league/flysystem": "^1.0.26"
     },
     "require-dev": {
